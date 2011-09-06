@@ -1,0 +1,13 @@
+# tw_cli /c0 show
+
+Unit  UnitType  Status         %RCmpl  %V/I/M  Stripe  Size(GB)  Cache  AVrfy
+------------------------------------------------------------------------------
+u0    RAID-5    OK             -       -       256K    1862.62   RiW    ON     
+u1    SPARE     OK             -       -       -       931.505   -      OFF    
+
+VPort Status         Unit Size      Type  Phy Encl-Slot    Model
+------------------------------------------------------------------------------
+p0    OK             u0   931.51 GB SATA  0   -            ST31000333AS        
+p1    OK             u0   931.51 GB SATA  1   -            ST31000333AS        
+p2    OK             u0   931.51 GB SATA  2   -            ST31000333AS        
+p3    SMART-FAILURE  u1   931.51 GB SATA  3   -            ST31000528AS        
